@@ -1,0 +1,13 @@
+{
+  "name": "apidoc-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "documentation": "apidoc -i src -o doc"
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.5",
+    "apidoc-plugin-schema": "https://github.com/Prosecute/apidoc-plugin-schema.git"
+  }
+}

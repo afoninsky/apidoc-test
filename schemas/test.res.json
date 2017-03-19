@@ -1,0 +1,15 @@
+{
+  "description": "API endpoint output",
+  "type": "object",
+  "required": ["value1", "values2"],
+  "properties": {
+    "value1": {
+      "description": "Some value returned",
+      "type": "string"
+    },
+    "values2": {
+      "description": "Other value returned",
+      "type": "number"
+    }
+  }
+}

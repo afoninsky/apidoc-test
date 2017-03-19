@@ -1,0 +1,21 @@
+{
+  "description": "Input arguments to API endpont",
+  "type": "object",
+  "required": ["id", "arg"],
+  "properties": {
+    "id": {
+      "description": "User id passed by client",
+      "type": "string"
+    },
+    "arg": {
+      "description": "Any additional argument",
+      "type": "number"
+    },
+    "email": {
+      "description": "Optional email",
+      "type": "string",
+      "faker": "internet.email",
+      "default": "vasya@gmail.com"
+    }
+  }
+}
